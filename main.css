@@ -1,0 +1,60 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #3f260a;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fdfef3;
+    color: #3f260a;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-itens .nav-link.active:hover {
+    color: #fdfef3;
+}
+
+.navbar-toggler {
+    background-color: #fdfef3;
+}
+
+.section-title {
+    font-family: "Titillium Web", sans-serif;
+}
+
+#sobre-o-restaurante, #itens {
+    background-color: #fdfef3;
+}
+
+.text-colored {
+    color: #3f260a;
+}
+
+.nav-itens .nav-link.active,
+#fale-conosco button {
+    background-color: #3f260a;
+    color: #fdfef3;
+}
+
+.nav-itens .nav-link:hover {
+    color: #3f260a;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
